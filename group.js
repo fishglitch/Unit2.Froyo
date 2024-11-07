@@ -1,16 +1,17 @@
 let userFlavors = prompt("Enter your order");
 
+// enter  vanilla,vanilla,vanilla,strawberry,coffee,coffee
 if (userFlavors) {
-
-}
+    // let flavorsArray = userFlavors.split(",")
+} 
 console.log(userFlavors)
-userFlavor = ["",]
-
+userFlavor = [ "", ]
+ 
 console.table(userFlavors)
 
 // The user's input string is split into an array of strings.
 
-let flavorsArray = userFlavors.split(",")
+let flavorsArray = userFlavors.split(",");
 
 console.table(flavorsArray)
 // A loop is used to iterate through the array of flavors

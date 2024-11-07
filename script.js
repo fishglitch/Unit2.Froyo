@@ -5,7 +5,7 @@ if (userFlavors) {
     // let flavorsArray = userFlavors.split(",")
 } 
 console.log(userFlavors)
-userFlavor = [ "", ]
+
  
 console.table(userFlavors)
 
